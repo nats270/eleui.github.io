@@ -1,0 +1,39 @@
+# Empty CSS file for your own CSS
+
+# Empty CSS file for your own CSS
+span.arrow{
+background : url(./img/5.jpg) no-repeat right top;
+width: 0;
+height: 0;
+display: inline-block;
+padding: 0;
+margin: 0;
+border: 15px solid yellow;
+}
+
+span.arrow.right{
+border-left-color: #4EC3B3;
+border-left-width: 40px;
+border-right-width: 0;
+float: right;
+}
+span.arrow.left{
+border-right-color: #4EC3B3;
+border-right-width: 40px;
+border-left-width: 0;
+float: left;
+}
+
+.button4 {border-radius: 15px;}
+.button {
+  background-color: #4EC3B3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
