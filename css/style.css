@@ -2,7 +2,7 @@
 
 # Empty CSS file for your own CSS
 span.arrow{
-background : url(./img/5.jpg) no-repeat right top;
+background : white;
 width: 0;
 height: 0;
 display: inline-block;
@@ -24,7 +24,10 @@ border-left-width: 0;
 float: left;
 }
 
-.button4 {border-radius: 15px;}
+.button4 {
+  border-radius: 20px;
+  float:center;
+}
 .button {
   background-color: #4EC3B3; /* Green */
   border: none;
@@ -34,6 +37,8 @@ float: left;
   text-decoration: none;
   display: inline-block;
   font-size: 15px;
-  margin: 2px 2px;
+  margin: 2px 50px;
   cursor: pointer;
+  float: center;
+  placeholder: center;
 }
