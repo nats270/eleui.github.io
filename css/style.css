@@ -40,5 +40,68 @@ float: left;
   margin: 2px 50px;
   cursor: pointer;
   float: center;
-  placeholder: center;
+}
+.button5 {
+	border-radius: 20px;
+  float:center;
+  margin: 0px ;
+}
+.button6 {
+	border-radius: 20px;
+  float:center;
+  margin: 0px ;
+  background-color: #4EC3B3; /* Green */
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  cursor: pointer;
+  float: center;
+  
+}
+
+
+.modal{
+
+}
+
+
+
+.figcaption {
+	padding: 1em;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+  margin: 2px 50px;
+}
+
+.figcaption::before,
+.figcaption::after {
+	pointer-events: none;
+}
+
+.figcaption,
+.figcaption > a {
+	position: absolute;
+/*	top: 0;
+	left: 0;*/
+  margin: 2px 50px;
+	width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.figcaption > a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
 }

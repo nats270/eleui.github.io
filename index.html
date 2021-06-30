@@ -64,113 +64,57 @@
 	<div class="row">
 		<div class="col-md-1">
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-1">
 
-      <img alt="Bootstrap Image Preview" src="img/Untitled.png" class="rounded"><br>
+      <strong> The field agent takes pictures and uploads</strong>
+			<img alt="Bootstrap Image Preview" src="img/Untitled.png" class="rounded">
+
       <input type="file" name="filename" placeholder="Browse.." class="w-full h-12 px-16 py-2 font-medium text-indigo-800 focus:outline-white">
+	  <button onclick="outNewImage1(); setNewImage()" class="button5">SUBMIT</button>
+
+
+
     <!--<button class="button button4">INPUT</button>-->
 
-			<div class="row">
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
 
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-				</div>
-			</div>
+
+
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-4" style="height: 100%;width: auto;"><br><br><br><br>
+			<img id="img1"  style="     width: 383px;
+			padding: 110px;
+			transform: rotate(42deg)"
+      src="img/arrow.png" >
+
 		</div>
 		<div class="col-md-1">
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-1">
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-3">
     <!--  <img alt="Bootstrap Image Preview" src="img/im.png" class="rounded" float="right"><br>
       <button class="button button4">METADATA</button>-->
 			<div class="row">
-				<div class="col-md-3">
+
+				<div class="col-md-9" style="height: 100%;width: auto;"><br><br><br>
+					<img id ="img5" style="    width: 152px;
+					padding: 0px;
+					transform: rotate(-33deg)translateY(200px);"
+      				src="img/arrow.png" >
+
 				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-				<div class="col-md-3">  <img alt="Bootstrap Image Preview" src="img/im.png" class="rounded"><br>
-          <button class="button button4">METADATA</button>
+
+				<div class="col-md-3"><br><br><br><!--<img alt="Bootstrap Image Preview" src="img/im1.png" class="rounded">--><br>
+          <button  class="button button6">METADATA</button>
+          <figcaption>
+                            <a href="img/im.png">show output</a>
+                        </figcaption>
 
 			<!--  <span class="arrow2 right" style="transform: rotate(90deg); bottom: 60px; left: 60px"></span>-->
 				</div>
         	</div>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-       <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
+
+
 		</div>
 		<div class="col-md-1">
 		</div>
@@ -181,13 +125,24 @@
 		</div>
 		<div class="col-md-2">
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-2">  <figcaption>
+                        <a href="img/Picture1.png">show input</a>
+                    </figcaption>
 			<img alt="Bootstrap Image Preview" src="img/Picture1.png" class="rounded"><br>
-      <button class="button button4">STORAGE</button>
+      <button onclick="outNewImage3();setNewImage3()" class="button button4">STORAGE</button>
+
       <!--<a href="#" class="btn btn-secondary" type="button">Button</a>-->
 		</div>
 
-		<div class="col-md-1"><!--<br>
+		<div class="col-md-1" style="height: 100%;width: auto;">
+			<img id="img3" style="    padding: 0px;
+    width: 114px;
+    transform: translateY(179%);
+    height: 57px;"
+      src="img/arrow.png" >
+
+
+			<!--<br>
       <br><br>
 
 
@@ -195,57 +150,14 @@
 <span class="arrow2 right"></span>
 <span class="arrow2 right"></span>-->
 <!--<br><br><br>-->
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
 
-  </div>
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-    </div>
-</div>
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-3"><br><br><br><br>
-    <span class="arrow2 right"></span>
-  </div>
-  <div class="col-md-3"><br><br><br><br>
-    <span class="arrow2 right"></span>
-  </div>
-  <div class="col-md-3"><br><br><br><br>
-    <span class="arrow2 right"></span>
-  </div>
-  <div class="col-md-3"><br><br><br><br>
-    <span class="arrow2 right"></span>
-  </div>
-</div>
-<div class="row">
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-  <div class="col-md-3">
-  </div>
-</div>
 
 			</div>
-		<div class="col-md-2">
-			<img alt="Bootstrap Image Preview" src="img/man.png" class="rounded">
+		<div class="col-md-3"><br><br>
+			<img alt="Bootstrap Image Preview" src="img/man1.png" class="rounded"><br>
+			<button onclick=" outNewImage4();setNewImage4()" class="button button4">Manager</button>
 		</div>
-		<div class="col-md-2">
+		<div class="col-md-1">
 		</div>
 		<div class="col-md-1">
 		</div>
@@ -254,51 +166,21 @@
   <div class="row">
 		<div class="col-md-1">
 		</div>
-		<div class="col-md-3">
+		<div class="col-md-6">
+
+
+
 			<div class="row">
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
-				</div>
-        <div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(-30deg); bottom: 60px; left: 60px"></span>
+        <div class="col-md-3"><br><br><br>
+			<button onclick="outNewImage2();setNewImage2()" class="button5">SUBMIT</button>
           <input type="file" name="filename" placeholder="Browse.." class="w-full h-12 px-16 py-2 font-medium text-indigo-800 focus:outline-white">
-
-
-
-
-          <img alt="Bootstrap Image Preview" src="img/fl.png" class="rounded"><br><!--<button class="button button4">INPUT</button>-->
+          <img alt="Bootstrap Image Preview"  src="img/fl.png" class="rounded">
+          <strong> The field<br> agent takes<br> pictures and<br> uploads</strong>
+<!--<button class="button button4">INPUT</button>-->
         	</div>
-        <div class="col-md-3">
+        <div class="col-md-3" style="height: 100%;width: auto;" >
+			<img id =img2  style="    width: 244px;padding: 35px;transform: rotate(-40deg);"
+      src="img/arrow.png" >
 				</div>
         <div class="col-md-3">
 				</div>
@@ -306,57 +188,29 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-2">
-		</div>
+
+
 		<div class="col-md-1">
 		</div>
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-2">
+		<div class="col-md-3">
+
+
+
 			<div class="row">
-				<div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-        <div class="col-md-3">
-				</div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
+
+        <div class="col-md-9" style="height: 100%;width: auto;">
+			<img id="img4" style="width: 262px;
+			transform: rotate(35deg) translateY(-80px);
+			padding: 59px;"
+      		src="img/arrow.png" >
         </div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-        </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-        </div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-          <span class="arrow2 right" style="transform: rotate(30deg); bottom: 60px; left: 60px"></span>
-        </div>
-        <div class="col-md-3">
-        </div>
-			</div>
-			<div class="row">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-3">
-        <!--  <span class="arrow2 right" style="transform: rotate(150deg); bottom: 60px; left: 60px"></span>-->
-     			<img alt="Bootstrap Image Preview" src="img/te.png" class="rounded">
-          <button class="button button4">OUTPUT</button>
+        <div class="col-md-3"><br>
+        <!--  <span class="arrow2 right" style="transform: rotate(150deg); bottom: 60px; left: 60px"></span>
+     			<img alt="Bootstrap Image Preview" src="img/te1.png" class="rounded">-->
+          <button class="button button6">EXTRACTION</button>
+          <figcaption>
+                            <a href="img/te.png">show output</a>
+                        </figcaption>
         </div>
 			</div>
 		</div>
@@ -403,5 +257,173 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+
+<script type="text/javascript">
+	function setNewImage(){
+		var image =document.getElementById("img1") ;
+		image.src="img/arrow.gif"
+		image.style.transform= "rotate(222deg)translateY(-33px)";
+		image.style.padding= "100px";
+		image.style.width= "410px";
+
+	}
+
+	function setNewImage2(){
+		var image =document.getElementById("img2") ;
+		image.src="img/arrow.gif"
+		image.style.transform= "rotate(142deg)translateY(39px)";
+		image.style.padding= "50px";
+		image.style.width= "270px";
+
+
+	}
+	function setNewImage3(){
+		var image =document.getElementById("img3") ;
+		image.src="img/arrow.gif"
+		image.style.transform= "rotate(180deg) translateY(-87px)";
+		image.style.padding= "23px;";
+		image.style.width= "106px";
+
+
+
+	}
+	function setNewImage4(){
+		var image =document.getElementById("img4") ;
+		image.src="img/arrow.gif"
+		image.style.transform= "rotate(-151deg) translateY(72px)";
+		image.style.padding= "23px;";
+		image.style.width= "281px";
+
+		var image1 =document.getElementById("img5") ;
+		image1.src="img/arrow.gif"
+		image1.style.transform= "rotate(149deg) translateY(-189px)";
+		image1.style.padding= "14px;";
+		image1.style.width= "171px";
+
+
+
+	}
+
+	function outNewImage1(){
+		var image2 =document.getElementById("img2") ;
+		var image3 =document.getElementById("img3") ;
+		var image4 =document.getElementById("img4") ;
+		var image5 =document.getElementById("img5") ;
+
+		image2.src="img/arrow.png"
+		image2.style.width= "244px";
+		image2.style.padding= "35px";
+		image2.style.transform= "rotate(-40deg)";
+
+		image3.src="img/arrow.png"
+		image3.style.width= "144px";
+		image3.style.padding= "0px";
+		image3.style.transform= "translateY(179%)";
+		image3.style.height= "57px";
+
+
+		image4.src="img/arrow.png"
+		image4.style.width= "262px";
+		image4.style.padding= "59px";
+		image4.style.transform= "rotate(35deg) translateY(-80px)";
+
+
+		image5.src="img/arrow.png"
+		image5.style.width= "152px";
+		image5.style.padding= "0px";
+		image5.style.transform= "rotate(-33deg)translateY(200px)";
+
+	}
+
+	function outNewImage2(){
+		var image1 =document.getElementById("img1") ;
+		var image3 =document.getElementById("img3") ;
+		var image4 =document.getElementById("img4") ;
+		var image5 =document.getElementById("img5") ;
+
+		image1.src="img/arrow.png"
+		image1.style.width= "383px";
+		image1.style.padding= "110px";
+		image1.style.transform= "rotate(42deg)";
+
+		image3.src="img/arrow.png"
+		image3.style.width= "144px";
+		image3.style.padding= "0px";
+		image3.style.transform= "translateY(179%)";
+		image3.style.height= "57px";
+
+
+		image4.src="img/arrow.png"
+		image4.style.width= "262px";
+		image4.style.padding= "59px";
+		image4.style.transform= "rotate(35deg) translateY(-80px)";
+
+
+		image5.src="img/arrow.png"
+		image5.style.width= "152px";
+		image5.style.padding= "0px";
+		image5.style.transform= "rotate(-33deg)translateY(200px)";
+
+	}
+
+	function outNewImage3(){
+		var image1 =document.getElementById("img1") ;
+		var image4 =document.getElementById("img4") ;
+		var image5 =document.getElementById("img5") ;
+		var image2 =document.getElementById("img2") ;
+
+
+		image2.src="img/arrow.png"
+		image2.style.width= "244px";
+		image2.style.padding= "35px";
+		image2.style.transform= "rotate(-40deg)";
+
+		image1.src="img/arrow.png"
+		image1.style.width= "383px";
+		image1.style.padding= "110px";
+		image1.style.transform= "rotate(42deg)";
+
+
+		image4.src="img/arrow.png"
+		image4.style.width= "262px";
+		image4.style.padding= "59px";
+		image4.style.transform= "rotate(35deg) translateY(-80px)";
+
+
+		image5.src="img/arrow.png"
+		image5.style.width= "152px";
+		image5.style.padding= "0px";
+		image5.style.transform= "rotate(-33deg)translateY(200px)";
+
+	}
+	function outNewImage4(){
+		var image1 =document.getElementById("img1") ;
+		var image3 =document.getElementById("img3") ;
+		var image2 =document.getElementById("img2") ;
+
+
+		image2.src="img/arrow.png"
+		image2.style.width= "244px";
+		image2.style.padding= "35px";
+		image2.style.transform= "rotate(-40deg)";
+
+		image1.src="img/arrow.png"
+		image1.style.width= "383px";
+		image1.style.padding= "110px";
+		image1.style.transform= "rotate(42deg)";
+
+		image3.src="img/arrow.png"
+		image3.style.width= "144px";
+		image3.style.padding= "0px";
+		image3.style.transform= "translateY(179%)";
+		image3.style.height= "57px";
+
+
+
+	}
+
+</script>
+
+
   </body>
 </html>
